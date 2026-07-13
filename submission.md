@@ -3,7 +3,7 @@
 **Tool Used:** Gemini / Claude (Learning Mode)
 
 *   **Issue #4 (Notifications):** I used AI to help implement the fix by writing a descriptive comment explaining what should happen right after the database commit (`db.commit()`), and allowed the AI to generate the specific notification syntax.
-*   **Issue #1 (Streaks) & Issue #5 (Playlists):** I used the AI in a guided learning/tutor capacity to understand how specific data structures and methods work (such as Python's day-of-the-week indexing and negative list slicing). Instead of being handed a direct solution, we engaged in a back-and-forth dialogue where I asked questions, tested assumptions, and reasoned my way to the correct fixes.
+*   **Issue #1 (Streaks) & Issue #5 (Playlists):** I engaged with the AI in a guided tutoring capacity to understand how specific data structures and methods work (such as Python's day-of-the-week indexing and negative list slicing). Instead of asking for a direct solution, I used targeted prompts to have a back-and-forth dialogue where I asked questions, tested assumptions, and reasoned my way to the correct fixes.
 *   **Verification:** I verified all generated logic and explanations manually by running the project test suite (`pytest tests/`) to ensure the changes fixed the root causes without creating side effects.
 
 # Codebase Map
